@@ -53,7 +53,7 @@ Prometheus Windows Exporter helps expose system and MSSQL metrics for monitoring
 Execute the following command to start the Windows Exporter and fetch SQL Server statistics:
 
 ```bash
-"C:\Program Files\windows_exporter\windows_exporter-0.31.3-amd64.exe" --collectors.enabled="cpu,logical_disk,net,os,service,system,textfile,mssql"
+"C:\Program Files\windows_exporter\windows_exporter-0.31.3-amd64.exe" --collectors.enabled="cpu,logical_disk,net,os,service,system,textfile,"
 ```
 
 5.**Verify the Metrics Endpoint**
